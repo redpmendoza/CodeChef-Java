@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Codechef{
+class WaterConsumption{
 	public static void main (String[] args) throws java.lang.Exception{
 		
 		// Start of Solution
