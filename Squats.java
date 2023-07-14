@@ -10,6 +10,7 @@ class Squats{
 
         for(int ctr = 0; ctr < T; ctr++){
             int X = in.nextInt();
+            
             System.out.println(X * 15);
         }
         // End of Solution
