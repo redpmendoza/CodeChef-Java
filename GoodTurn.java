@@ -11,6 +11,7 @@ class GoodTurn{
 		for(int ctr = 0; ctr < T; ctr++){
 		    int X = in.nextInt();
 		    int Y = in.nextInt();
+		    
 		    if(X + Y > 6){
 		        System.out.println("YES");
 		    }
