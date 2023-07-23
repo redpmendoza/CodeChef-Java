@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class IPLTickerRush{
+class Codechef{
 	public static void main (String[] args) throws java.lang.Exception{
 		
 		// Start of Solution
@@ -12,7 +12,14 @@ class IPLTickerRush{
 		    int N = in.nextInt();
 		    int M = in.nextInt();
 		    
-		    System.out.println(N-M);
+		    int diff = N-M;
+		    
+		    if(diff < 0){
+		       System.out.println(0); 
+		    }
+		    else{
+		        System.out.println(diff);
+		    }
 		}
 		// End of Solution
 		
